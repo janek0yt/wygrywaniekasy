@@ -1,0 +1,32 @@
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+height: 100vh;
+      background-color: #f4f4f4;
+      margin: 0;
+      flex-direction: column;
+    }
+
+    canvas {
+      border: 1px solid black;
+    }
+
+    #nav button {
+        width: 10vw;
+        height: 10vw;
+        font-size: 9vw;
+    }
+
+
+    #lose {
+        width: 100vw;
+display: none;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #ff000080;
+      margin: 0;
+      flex-direction: column;
+    }
