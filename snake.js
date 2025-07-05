@@ -25,10 +25,10 @@ function money() {
 let gameInterval = setInterval(updateGame, 100);
 
 document.addEventListener('keydown', e => {
-  if (e.key === 'ArrowUp') up();
-  else if (e.key === 'ArrowDown') down();
-  else if (e.key === 'ArrowLeft') l();
-  else if (e.key === 'ArrowRight') r();
+  if (e.key === 'W') up();
+  else if (e.key === 'S') down();
+  else if (e.key === 'A') l();
+  else if (e.key === 'D') r();
 });
 
 function updateGame() {
